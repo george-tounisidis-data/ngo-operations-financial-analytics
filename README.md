@@ -1,39 +1,44 @@
-# NGO Operations Financial Analytics
-## 📌 Επισκόπηση Έργου
-Αυτό το έργο αποτελεί μια ολοκληρωμένη enterprise λύση Business Intelligence που σχεδιάστηκε και υλοποιήθηκε για έναν πραγματικό Μη Κερδοσκοπικό Οργανισμό (ΜΚΟ). Σκοπός του έργου είναι η στρατηγική ανάλυση των μηνιαίων δαπανών, των εξόδων μισθοδοσίας και της κατανομής των λειτουργικών πόρων ανά παράρτημα.
+# 📊 NGO Operations Financial Analytics - Power BI & SQL Portfolio Project
 
-> 🔒 **Σημείωση Ασφάλειας Δεδομένων (Data Anonymization):**
-> Για την προστασία των Προσωπικών Δεδομένων (PII) και της εσωτερικής δομής του οργανισμού, όλα τα ευαίσθητα δεδομένα (ονόματα εργαζομένων, συγκεκριμένα έργα και τοποθεσίες γραφείων) έχουν ανωνυμοποιηθεί πλήρως «στον αέρα» (on-the-fly) σε επίπεδο βάσης δεδομένων (SQL Server) πριν τη διασύνδεσή τους με το Power BI. Οι αριθμητικές σχέσεις και τα οικονομικά μεγέθη έχουν διατηρηθεί 100% ατόφια για τη διασφάλιση της ακρίβειας των γραφημάτων.
+## 📌 Project Overview
 
----
+This project delivers a comprehensive **Business Intelligence and Financial Analytics solution** tailored for a real-world Non-Governmental Organization (NGO). The primary goal is to provide the executive board with full cost transparency, strategic insights into monthly expenditures, payroll distribution, and operational resource efficiency across multiple regional branches.
 
-## 🛠️ Τεχνολογικό Stack & Δεξιότητες
-* **Database Engine:** Microsoft SQL Server (T-SQL)
-* **Analytics & Visualization:** Power BI (Desktop & Power Query)
-* **Δεξιότητες:** Data Modeling, Advanced Data Masking, Cost Allocation Logic, CTEs, Window Functions (`DENSE_RANK`).
-
----
+🔒 **Data Security Note (GDPR Compliance):** To protect Personally Identifiable Information (PII) and the internal structure of the organization, all sensitive attributes (employee names, specific project titles, and office locations) have been fully anonymized "on-the-fly" at the database level (SQL Server) using dynamic masking techniques. All financial metrics and numeric relationships remain 100% intact to preserve data integrity and chart accuracy.
+<img width="1347" height="2627" alt="NGO Financial Analytics   Operational Cost Optimization dashboard" src="https://github.com/user-attachments/assets/e26f0613-1f34-4cee-a861-9876abbf9afb" />
 
 
-## 📊 Το Power BI Dashboard
-Το dashboard προσφέρει πλήρη εποπτεία των δεδομένων στη διοίκηση της ΜΚΟ, επιτρέποντας:
-* **Κατανομή Ανθρώπινου Δυναμικού (Resource Allocation):** Πλήρης αποτύπωση της απασχόλησης των εργαζομένων ανά πρόγραμμα, με ακριβή προσδιορισμό του ποσοστού συμμετοχής τους.
-* **Παρακολούθηση Μηνιαίας Τάσης (Trend Analysis):** Ανάλυση της διακύμανσης των αμοιβών ανά μήνα για την πρόβλεψη του cash flow.
-* **Ανάλυση Κόστους ανά Παράρτημα:** Δομημένη σύγκριση των συνολικών εξόδων (Γραφείο 1 έως 4) για τον εντοπισμό αποκλίσεων από τον προϋπολογισμό.
-* **Κατανομή Δαπανών:** Πλήρης διαφάνεια στο πού ξοδεύονται οι πόροι της ΜΚΟ (Λειτουργικά, Ενοίκια, Τηλεπικοινωνίες).
-
----
-
-Δείτε το screenshot του Dashboard παρακάτω για να αξιολογήσετε το UI/UX και τη σχεδίαση των visuals.
-<img width="1347" height="2627" alt="NGO Financial Analytics   Operational Cost Optimization dashboard" src="https://github.com/user-attachments/assets/2553877d-421c-47b4-a725-906dd3b7980f" />
 
 
-### 🔎 Παρατήρηση Διασφάλισης Ποιότητας Δεδομένων (Data Quality & Integrity Insight)
+## 🛠 Tech Stack & Skills Demonstrated
 
-Στα γραφήματα της χρονικής εξέλιξης (Time-Series Analysis) παρατηρείται μια σχεδιαστική ασυμφωνία, η οποία αποτυπώνει ένα συχνό φαινόμενο σε πραγματικά εταιρικά δεδομένα (**Real-World Data Lag**):
+- **Database Engine:** Microsoft SQL Server (T-SQL)
+- **Data Warehousing & Transforms:** SQL Views, Common Table Expressions (CTEs), Window Functions
+- **Business Intelligence & Visualization:** Power BI Desktop & Power Query
+- **Data Modeling & Analytics:** DAX Measures, Advanced Filtering, Cross-Filtering, Workforce Cost Optimization
 
-1. **Μηνιαία Τάση Αμοιβών (Line Chart):** Εμφανίζονται δεδομένα έως και τον **Μήνα 6 (Ιούνιο)**, με μια απότομη πτώση στο τέλος. Αυτό οφείλεται στο γεγονός ότι ο συγκεκριμένος μήνας είναι ημιτελής (incomplete) και οι εγγραφές της μισθοδοσίας δεν έχουν ολοκληρωθεί στη βάση δεδομένων.
-2. **Μηνιαία Τάση Λειτουργικών Εξόδων (Area Chart):** Το γράφημα σταματά αυτόματα στον **Μήνα 5 (Μάιο)**, καθώς δεν έχουν καταχωρηθεί ακόμη οι τιμολογήσεις και τα λειτουργικά έξοδα του Ιουνίου.
+## 🧹 Data Transformation & Challenges (The "Pro" Analyst Approach)
 
-**Business Προσέγγιση:** Αντί να "φιλτραριστούν" τεχνητά τα δεδομένα για να δείχνουν οπτικά τέλεια, επιλέχθηκε η διατήρηση της αυθεντικής δομής της βάσης. Αυτό αναδεικνύει την ανάγκη για συγχρονισμό των λογιστικών εγγραφών (Data Pipeline Sync) και αποδεικνύει τη σημασία του *Data Cleaning* και του *Sanity Checking* πριν από την εξαγωγή τελικών συμπερασμάτων για τη διοίκηση.
+Real-world data is rarely clean or ready for reporting. During the ETL (Extract, Transform, Load) phase, core transformations and business logic were pushed down to the source database level (**Pushdown Logic**) using **SQL Server Views** to optimize Power BI performance:
+
+1. **Dynamic Data Masking (GDPR):** Utilized `DENSE_RANK() OVER (ORDER BY ...)` to automatically assign sequential, unique pseudonyms to projects and employees (e.g., *Έργο 1*, *Εργαζόμενος 27*). This ensures data protection while enabling accurate aggregation of historical data across different periods.
+2. **Advanced Cost Allocation Logic:** Addressed the challenge of shared corporate expenses (e.g., centralized telecommunication bills like *Voiceland*). Implemented a SQL-driven allocation script that splits shared costs equally (`SUM([Amount]) / 4.0`) across the 4 physical branches dynamically every month.
+3. **Data Quality & Incomplete Records:** Filtered out overhead vendor records during payroll isolation to strictly isolate direct personnel costs, maintaining an uncorrupted dataset for workforce analytics.
+
+## 📈 Key Business Insights & Data Storytelling
+
+- **The Pareto Principle in Action:** A single major project drives over **53% of the total human resource budget**, with the top two projects combined accounting for more than **78% of overall payroll costs**. This highlights a heavy strategic dependency and resource concentration for the NGO's leadership.
+- **Overhead Cost Drivers:** Advanced operational tracking revealed that **Rent and Lease costs command a staggering 63.96%** of total fixed expenditures, identifying physical real estate as the primary target for potential cost-reduction strategies.
+- **Branch Efficiency Analysis:** **Office 3 (Γραφείο 3)** emerged as the most expensive operational center, allowing management to evaluate branch utility vs. local output.
+- **Real-World Data Lag (Data Quality Audit):** Time-series visualizations successfully exposed an operational logging delay. Personnel data extends to **Month 6 (June)**, while operational expenses halt at **Month 5 (May)** due to pending accounting closures, showcasing the dashboard's ability to act as an internal data audit tool.
+
+## 📂 Repository Structure
+
+- `ΜΚΟ.sql`: Optimized T-SQL script containing database setup, advanced data masking, and cost allocation queries.
+- `README.md`: Project documentation and business insight overview.
+
+
+
+
+
 
