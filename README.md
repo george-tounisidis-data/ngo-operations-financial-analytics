@@ -30,7 +30,7 @@ Real-world data is rarely clean or ready for reporting. During the ETL (Extract,
 
 ## 📈 Key Business Insights & Data Storytelling
 
-- **The Pareto Principle in Action:** A single major project drives over **53% of the total human resource budget**, with the top two projects combined accounting for more than **78% of overall payroll costs**. This highlights a heavy strategic dependency and resource concentration for the NGO's leadership.
+• **Strategic Funding Dependency:** A single major project funds over **53.97% of the total workforce payroll**, exposing a heavy structural dependency and a high concentration risk for the NGO's sustainability.
 - **Overhead Cost Drivers:** Advanced operational tracking revealed that **Rent and Lease costs command a staggering 63.96%** of total fixed expenditures, identifying physical real estate as the primary target for potential cost-reduction strategies.
 - **Branch Efficiency Analysis:** **Office 3 (Γραφείο 3)** emerged as the most expensive operational center, allowing management to evaluate branch utility vs. local output.
 - **Real-World Data Lag (Data Quality Audit):** Time-series visualizations successfully exposed an operational logging delay. Personnel data extends to **Month 6 (June)**, while operational expenses halt at **Month 5 (May)** due to pending accounting closures, showcasing the dashboard's ability to act as an internal data audit tool.
