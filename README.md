@@ -193,10 +193,8 @@ GO
 ---
 
 ## 🚀 Πώς να το Λειτουργήσετε
-Δείτε τα screenshots του Dashboard παρακάτω για να αξιολογήσετε το UI/UX και τη σχεδίαση των visuals.
-<img width="1347" height="739" alt="Χρεώσεις Προσωπικού" src="https://github.com/user-attachments/assets/bcc9a389-382a-4c41-9a24-f4e46943ef69" />
-<img width="1347" height="739" alt="Συνολικό Κόστος Ανά Εργαζόμενο" src="https://github.com/user-attachments/assets/48bd9e68-8ee8-47f3-b509-8d906cbf1500" />
-<img width="1347" height="739" alt="Πάγια Έξοδα Ανά Γραφείο" src="https://github.com/user-attachments/assets/880907d8-46a3-45ca-b350-1e061b91b869" />
-<img width="1347" height="739" alt="Χρονική Εξέλιξη Δαπανών" src="https://github.com/user-attachments/assets/7a4e7b95-0d42-4559-9789-666fb581d593" />
+Δείτε το screenshots του Dashboard παρακάτω για να αξιολογήσετε το UI/UX και τη σχεδίαση των visuals.
+<img width="1347" height="2627" alt="NGO Financial Analytics   Operational Cost Optimization dashboard" src="https://github.com/user-attachments/assets/2553877d-421c-47b4-a725-906dd3b7980f" />
+
 
 
