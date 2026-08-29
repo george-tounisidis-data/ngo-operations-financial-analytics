@@ -6,7 +6,7 @@ This project delivers a comprehensive **Business Intelligence and Financial Anal
 
 🔒 **Data Security Note (GDPR Compliance):** To protect Personally Identifiable Information (PII) and the internal structure of the organization, all sensitive attributes (employee names, specific project titles, and office locations) have been fully anonymized "on-the-fly" at the database level (SQL Server) using dynamic masking techniques. All financial metrics and numeric relationships remain 100% intact to preserve data integrity and chart accuracy.
 
-📊 Dashboard Preview
+## 📊 Dashboard Preview
 
 <img width="1347" height="2627" alt="NGO Financial Analytics   Operational Cost Optimization dashboard" src="https://github.com/user-attachments/assets/e26f0613-1f34-4cee-a861-9876abbf9afb" />
 
