@@ -193,7 +193,7 @@ GO
 ---
 
 ## 🚀 Πώς να το Λειτουργήσετε
-Δείτε το screenshots του Dashboard παρακάτω για να αξιολογήσετε το UI/UX και τη σχεδίαση των visuals.
+Δείτε το screenshot του Dashboard παρακάτω για να αξιολογήσετε το UI/UX και τη σχεδίαση των visuals.
 <img width="1347" height="2627" alt="NGO Financial Analytics   Operational Cost Optimization dashboard" src="https://github.com/user-attachments/assets/2553877d-421c-47b4-a725-906dd3b7980f" />
 
 
